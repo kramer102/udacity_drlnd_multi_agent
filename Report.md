@@ -1,9 +1,9 @@
 # Multi-agent Udacity Project Report
-The goal is to get two tennis agents to keep the ball in the air
+The goal is to train two tennis agents to keep the ball in the air.
 ## Discussion of Methods Attempted
 I began with the DDPG code from the Continuous Control project as a base.
 ### Method Log:
-I adapted the Continuous Control code to score for max of the scores instead of the average and ran the DDGP algorithm for 1000 time steps. It appears to have solved the environment.
+I adapted the Continuous Control code to score for max of the scores instead of the average and ran the DDPG algorithm for 1000 time steps. It appears to have solved the environment.
 
 ![](./images/first_run_results.png)<br>
 
